@@ -36,6 +36,7 @@ describe('Passing the Minesweeper: injection level:', function() {
         });
     });
 
+    /*
     it("can inject document.grid", function(done){
         browser.visit(url, function(err) {
 
@@ -57,6 +58,6 @@ describe('Passing the Minesweeper: injection level:', function() {
             done();
         });
 
-    });
+    });*/
 
 });
