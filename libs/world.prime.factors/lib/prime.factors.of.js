@@ -1,6 +1,6 @@
 primeFactorsOf = function(number) {
-	var factors = [];
-	while (number > 1) {
+	var factors = [2];
+	while (number > 2 ) {
 		number % 2 >= 0 ? factors.push(2) : factors.push(1);
 		number = number/2;
 	}
