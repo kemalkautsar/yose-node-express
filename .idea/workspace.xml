@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aaa87af5-2466-4b34-a104-a82d1faf05e5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/astroport.html" afterPath="$PROJECT_DIR$/views/astroport.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/world.astroport/astroport.spec.js" afterPath="$PROJECT_DIR$/test/world.astroport/astroport.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/world.minesweeper/challenge.board.spec.js" afterPath="$PROJECT_DIR$/test/world.minesweeper/challenge.board.spec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yose-node-express.iws" />
@@ -29,8 +27,8 @@
       <file leaf-file-name="astroport.spec.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/world.astroport/astroport.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54285717">
-              <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.5714286">
+              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -39,8 +37,8 @@
       <file leaf-file-name="astroport.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/astroport.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.576923">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.1923075">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -73,8 +71,8 @@
         <option value="$PROJECT_DIR$/test/world.prime.factors/prime.factors.spec.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/test/world.minesweeper/challenge.board.spec.js" />
-        <option value="$PROJECT_DIR$/test/world.astroport/astroport.spec.js" />
         <option value="$PROJECT_DIR$/views/astroport.html" />
+        <option value="$PROJECT_DIR$/test/world.astroport/astroport.spec.js" />
       </list>
     </option>
   </component>
@@ -642,16 +640,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/astroport.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/world.astroport/astroport.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54285717">
-          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.5714286">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
           <folding />
         </state>
       </provider>
