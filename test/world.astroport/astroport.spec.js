@@ -24,4 +24,23 @@ describe('Passing astroport test:', function() {
         });
     });
 
+    it("has the #gate-n elements", function(done){
+        browser.visit(url, function(err) {
+            browser.assert.element('#gate-1');
+            browser.assert.element("#gate-2");
+            browser.assert.element('#gate-3');
+
+            done();
+        });
+    });
+    it("has the #ship-n elements", function(done){
+        browser.visit(url, function(err) {
+            browser.assert.element('#ship-1');
+            browser.assert.element("#ship-2");
+            browser.assert.element('#ship-3');
+
+            done();
+        });
+    });
+
 });
