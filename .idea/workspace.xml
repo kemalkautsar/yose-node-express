@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaa87af5-2466-4b34-a104-a82d1faf05e5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/world.minesweeper/challenge.injection.spec.js" afterPath="$PROJECT_DIR$/test/world.minesweeper/challenge.injection.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/world.prime.factors/challenge.power.of.two.spec.js" afterPath="$PROJECT_DIR$/test/world.prime.factors/challenge.power.of.two.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/world.prime.factors/prime.factors.spec.js" afterPath="$PROJECT_DIR$/test/world.prime.factors/prime.factors.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yose-node-express.iws" />
@@ -56,16 +54,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prime.factors.spec.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="prime.factors.spec.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/world.prime.factors/prime.factors.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51428574">
+            <state vertical-scroll-proportion="0.0">
               <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
               <folding>
                 <marker date="1478228147673" expanded="true" signature="231:278" placeholder="{...}" />
                 <marker date="1478228147673" expanded="true" signature="316:369" placeholder="{...}" />
                 <marker date="1478228147673" expanded="true" signature="408:462" placeholder="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,6 +105,7 @@
         <option value="$PROJECT_DIR$/test/world.minesweeper/challenge.injection.spec.js" />
         <option value="$PROJECT_DIR$/test/world.prime.factors/challenge.power.of.two.spec.js" />
         <option value="$PROJECT_DIR$/test/world.prime.factors/prime.factors.spec.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -552,13 +561,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/world.prime.factors/prime.factors.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51428574">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
           <folding>
             <marker date="1478228147673" expanded="true" signature="231:278" placeholder="{...}" />
             <marker date="1478228147673" expanded="true" signature="316:369" placeholder="{...}" />
             <marker date="1478228147673" expanded="true" signature="408:462" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
