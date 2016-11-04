@@ -13,7 +13,7 @@ describe('Passing the Minesweeper: board level:', function() {
     });
 
     afterEach(function() {
-        testServer.close(); 
+        testServer.close();
     });
 
     it("has the expected elements", function(done){
@@ -23,5 +23,5 @@ describe('Passing the Minesweeper: board level:', function() {
             done();
         });
     });
-   
+
 });

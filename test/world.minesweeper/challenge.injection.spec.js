@@ -24,13 +24,13 @@ describe('Passing the Minesweeper: injection level:', function() {
     });
 
     afterEach(function() {
-        testServer.close(); 
+        testServer.close();
     });
 
     it("has load() function", function(done){
         browser.visit(url, function(err) {
             var result = browser.evaluate('typeof load');
-            expect(result).to.equal('function'); 
+            expect(result).to.equal('function');
 
             done();
         });
@@ -56,7 +56,7 @@ describe('Passing the Minesweeper: injection level:', function() {
 
             done();
         });
-               
+
     });
-   
+
 });
