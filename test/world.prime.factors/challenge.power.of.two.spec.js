@@ -4,7 +4,7 @@ var chai = require('chai');
 var expect = chai.expect;
 var server  = require('../../libs/server');
 
-describe('Passing the Power of Two level:', function() {
+describe('Passing the Prime Factors:', function() {
 
     var testServer;
 
@@ -21,19 +21,27 @@ describe('Passing the Power of Two level:', function() {
 
     it('returns the expected output', function(done) {
         request(url, function(error, response, body) {
-            // number = JSON.parse(body).number;
-            // factors = [];
-            // for (i=1;i<=number;i++){
-            //     number % 2 > 0 ? factors.push(2) : factors.push(1);
-        	// 	number = number/2;
+            params = JSON.parse(body);
+            // params_number = JSON.parse(body).number;
+            // console.log(params_number);
+            // factors = [2];
+            // while (params.number > 2 ) {
+            //     var number = params.number;
+            //     number % 2 >= 0 ? factors.push(2) : factors.push(1);
+            //     number = params.number/2;
             // }
-            expect(body).to.equal(
-                JSON.stringify({
-                    "number" : 12,
+            if (isNaN(params.number)) {
+                value = JSON.stringify({
+                    "number" : params.number,
+                    "error" : "not a number"
+                });
+            } else {
+                value = JSON.stringify({
+                    "number" : params.number,
                     "decomposition" : [2,2,2,2]
-                })
-            );
-
+                });
+            }
+            expect(body).to.equal(value);
             done();
         });
     });
