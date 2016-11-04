@@ -27,6 +27,10 @@ server.get('/astroport', function(request, response){
 	require('./world.astroport/astroport')(request, response);
 });
 
+server.get('/contact', function(request, response){
+	require('./world.contact/contact')(request, response);
+});
+
 server.get('/share', function(request, response){
     require('./world.start/share')(request, response);
 });
