@@ -19,15 +19,14 @@ describe('Passing the Power of Two level:', function() {
         testServer.close();
     });
 
-    /*
     it('returns the expected output', function(done) {
         request(url, function(error, response, body) {
-            number = JSON.parse(body).number;
-            factors = [];
-            for (i=1;i<=number;i++){
-                number % 2 > 0 ? factors.push(2) : factors.push(1);
-        		number = number/2;
-            }
+            // number = JSON.parse(body).number;
+            // factors = [];
+            // for (i=1;i<=number;i++){
+            //     number % 2 > 0 ? factors.push(2) : factors.push(1);
+        	// 	number = number/2;
+            // }
             expect(body).to.equal(
                 JSON.stringify({
                     "number" : 12,
@@ -38,5 +37,5 @@ describe('Passing the Power of Two level:', function() {
             done();
         });
     });
-    */
+
 });
